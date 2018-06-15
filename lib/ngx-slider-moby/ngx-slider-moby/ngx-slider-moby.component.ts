@@ -241,7 +241,7 @@ _min_value:number;
 
 @Input()
 get max_value(){
-  return this._max_value || 500;
+  return this._max_value;
 }
 set max_value(val:any){
     this._max_value = Number(val);
